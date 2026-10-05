@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"> 
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -8,7 +8,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>70.3 Training</title>
 <style>
-:root{--bg:#07090c;--card:#11151a;--card2:#181d24;--text:#f7f9fb;--muted:#89939f;--line:rgba(255,255,255,.075);--green:#c8ff72;--blue:#67c2ff;--orange:#ffb06b;--pink:#ff78aa;--purple:#b78cff;--shadow:0 18px 50px rgba(0,0,0,.28)}
+:root{--scene-image:url("data:image/jpeg;base64,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");--bg:#07090c;--card:#11151a;--card2:#181d24;--text:#f7f9fb;--muted:#89939f;--line:rgba(255,255,255,.075);--green:#c8ff72;--blue:#67c2ff;--orange:#ffb06b;--pink:#ff78aa;--purple:#b78cff;--shadow:0 18px 50px rgba(0,0,0,.28)}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",Inter,Arial,sans-serif;letter-spacing:-.01em}
 .app{max-width:520px;margin:auto;min-height:100vh;padding:env(safe-area-inset-top) 18px 100px}
 header{padding:24px 2px 18px;display:flex;justify-content:space-between;align-items:center}.eyebrow{font-size:12px;color:var(--muted);font-weight:700;letter-spacing:.13em;text-transform:uppercase}.title{font-size:28px;font-weight:800;margin-top:5px}.gear{width:40px;height:40px;border:1px solid var(--line);border-radius:14px;background:var(--card);color:#fff;font-size:18px}
@@ -63,7 +63,199 @@ nav span{font-size:21px}
 .complete{height:54px;border-radius:18px;font-size:14px;box-shadow:0 10px 28px rgba(200,255,114,.12)}
 .chart{height:185px;border-radius:24px;background:linear-gradient(145deg,#13181e,#0f1317)}
 .bar{background:linear-gradient(to top,#b4e85f,#e0ff9e);box-shadow:0 0 18px rgba(200,255,114,.09)}
+
+/* PREMIUM DASHBOARD V2 */
+.dashHero{position:relative;margin-top:2px}
+.heroScene{height:290px;border-radius:32px;overflow:hidden;position:relative;border:1px solid rgba(255,255,255,.1);background-image:linear-gradient(180deg,rgba(5,8,10,.08),rgba(5,8,10,.42)),var(--scene-image);background-size:cover;background-position:center 62%;box-shadow:0 24px 70px rgba(0,0,0,.34)}
+.heroScene:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,8,10,.10) 0%,transparent 38%,rgba(5,8,10,.62) 100%)}
+.sceneGlow,.mountain,.sceneRoad,.sceneRider{display:none}
+.heroTop{position:absolute;top:19px;left:20px;right:20px;display:flex;justify-content:space-between;align-items:center}
+.heroTop span{font-size:10px;letter-spacing:.18em;font-weight:800;color:rgba(255,255,255,.76)}
+.heroTop button{border:1px solid rgba(255,255,255,.16);background:rgba(0,0,0,.2);backdrop-filter:blur(10px);color:white;width:34px;height:34px;border-radius:12px}
+.heroBottom{position:absolute;left:22px;right:22px;bottom:20px;text-shadow:0 2px 12px rgba(0,0,0,.35)}
+.heroKicker{font-size:11px;letter-spacing:.18em;font-weight:800;color:#d4ff9a}
+.heroRace{font-size:35px;font-weight:900;letter-spacing:-.06em;margin-top:2px}.heroRace span{font-size:16px;letter-spacing:.02em;color:rgba(255,255,255,.7)}
+.heroMeta{display:flex;align-items:center;gap:8px;margin-top:10px;font-size:8px;letter-spacing:.1em;font-weight:700;color:rgba(255,255,255,.72)}
+.heroMeta i{width:3px;height:3px;background:#c8ff72;border-radius:50%}
+.countdownCard{position:relative;margin:-35px 16px 0;background:rgba(20,25,30,.94);border:1px solid rgba(255,255,255,.1);border-radius:23px;padding:14px 17px;display:flex;align-items:center;justify-content:space-between;backdrop-filter:blur(20px);box-shadow:0 18px 35px rgba(0,0,0,.28);z-index:2}
+.countdownCard small,.miniLabel{font-size:9px;letter-spacing:.16em;color:#7f8995;font-weight:800}.countdownCard strong{font-size:34px;line-height:1;letter-spacing:-.06em;display:block;margin-top:3px}.countdownCard span{font-size:8px;letter-spacing:.12em;color:#8f99a5;font-weight:800}
+.ring{width:54px;height:54px;position:relative;display:grid;place-items:center}.ring svg{position:absolute;inset:0;transform:rotate(-90deg)}.ring circle{fill:none;stroke:#2a3036;stroke-width:4}.ring .ringFill{stroke:#c8ff72;stroke-linecap:round;stroke-dasharray:125.6;stroke-dashoffset:25}.ring b{font-size:10px}
+.todaySection{margin-top:29px}.sectionhead h3{font-size:20px;letter-spacing:-.04em;margin-top:2px}.datePill{font-size:9px;font-weight:800;color:#c8ff72;background:rgba(200,255,114,.08);border:1px solid rgba(200,255,114,.13);padding:7px 9px;border-radius:10px}
+.featureWorkout{display:flex;gap:14px;padding:18px;border-radius:24px;background:linear-gradient(145deg,#151b20,#101419);border:1px solid rgba(255,255,255,.075);box-shadow:0 15px 35px rgba(0,0,0,.18)}
+.featureWorkout.bikeFeature{min-height:170px;position:relative;overflow:hidden;background-image:linear-gradient(90deg,rgba(7,10,12,.97) 0%,rgba(7,10,12,.78) 42%,rgba(7,10,12,.20) 100%),var(--scene-image);background-size:cover;background-position:center 58%;border-color:rgba(255,255,255,.10)}
+.featureWorkout.bikeFeature:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(7,10,12,.48) 100%);pointer-events:none}
+.featureWorkout.bikeFeature>*{position:relative;z-index:1}
+
+.featureIcon{width:52px;height:52px;border-radius:17px;display:grid;place-items:center;font-size:24px;flex:none}.featureIcon.run{background:rgba(255,176,107,.12)}.featureIcon.bike{background:rgba(200,255,114,.1)}.featureIcon.swim{background:rgba(103,194,255,.11)}.featureIcon.strength{background:rgba(183,140,255,.11)}.featureIcon.brick{background:rgba(255,120,170,.11)}
+.featureMain{min-width:0;flex:1}.featureTitle{font-size:16px;font-weight:850;letter-spacing:-.025em}.featureDetail{font-size:12px;color:#8f99a5;line-height:1.45;margin-top:4px}.featureFooter{display:flex;justify-content:space-between;margin-top:13px;font-size:8px;letter-spacing:.11em;font-weight:800;color:#7f8995}.featureFooter span:last-child{color:#c8ff72}
+.weekSection{padding-top:2px}.weekPct{font-size:12px;font-weight:850;color:#c8ff72}.weekProgress{height:5px;border-radius:99px;background:#242a31;overflow:hidden;margin:-2px 0 13px}.weekProgress i{display:block;height:100%;background:linear-gradient(90deg,#9fda4c,#d9ff93);border-radius:99px}
+.premiumWeek{gap:6px}.premiumWeek .day{background:#11161b;border-color:rgba(255,255,255,.065);padding:11px 2px}.premiumWeek .day.hasWorkout{background:linear-gradient(145deg,#151b20,#11161a)}.premiumWeek .day.isDone{border-color:rgba(200,255,114,.25);background:rgba(200,255,114,.055)}.dayMark{font-size:11px;color:#4d5660;font-weight:900}.hasWorkout .dayMark{color:#c8ff72}.isDone .dayMark{font-size:10px}
+.journey{background:linear-gradient(145deg,#12171d,#0e1216);border:1px solid rgba(255,255,255,.065);border-radius:24px;padding:18px}.phaseTrack{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-top:17px}.phase{position:relative;padding:10px 6px 8px;border-top:2px solid #30373f}.phase.active{border-color:#c8ff72}.phase b{font-size:8px;letter-spacing:.08em;display:block}.phase span{font-size:8px;color:#6f7882;display:block;margin-top:4px}.phase.active b{color:#c8ff72}
+.upcoming .sectionhead{margin-bottom:10px}.compactWorkout{display:flex;align-items:center;gap:12px;padding:13px 4px;border-bottom:1px solid rgba(255,255,255,.055)}.compactWorkout:last-child{border-bottom:0}.compactIcon{width:39px;height:39px;border-radius:13px;display:grid;place-items:center;font-size:17px;background:#171c21}.compactIcon.run{background:rgba(255,176,107,.1)}.compactIcon.bike{background:rgba(200,255,114,.08)}.compactIcon.swim{background:rgba(103,194,255,.1)}.compactIcon.strength{background:rgba(183,140,255,.1)}.compactIcon.brick{background:rgba(255,120,170,.1)}.compactWorkout b{display:block;font-size:13px}.compactWorkout span{display:block;font-size:10px;color:#7f8995;margin-top:3px}.compactWorkout em{margin-left:auto;font-style:normal;color:#56606a;font-size:20px}
+
+/* COACHED WORKOUT DETAIL */
+#detail{margin-left:-20px;margin-right:-20px}
+.coachHero{height:300px;position:relative;overflow:hidden;padding:20px;background:linear-gradient(180deg,rgba(7,10,12,.05),rgba(7,10,12,.72)),var(--scene-image);background-size:cover;background-position:center 58%;border-radius:0 0 34px 34px}
+.coachHero:after{content:"";position:absolute;width:220px;height:220px;right:-90px;top:-80px;background:rgba(200,255,114,.12);filter:blur(28px);border-radius:50%}
+.coachHero.bike{background-image:linear-gradient(180deg,rgba(7,10,12,.05),rgba(7,10,12,.72)),var(--scene-image);background-size:cover;background-position:center 58%}.coachHero.run{background:linear-gradient(145deg,#292018,#11161a 65%,#21161a)}.coachHero.swim{background:linear-gradient(145deg,#102331,#10161c 65%,#111827)}.coachHero.strength{background:linear-gradient(145deg,#20182d,#10151a 65%,#1b1425)}.coachHero.brick{background:linear-gradient(145deg,#291721,#11151a 65%,#20151c)}
+.detailBack{position:relative;z-index:2;width:38px;height:38px;border-radius:13px;border:1px solid rgba(255,255,255,.12);background:rgba(0,0,0,.18);color:#fff;font-size:25px}
+.coachHeroIcon{position:absolute;right:30px;top:76px;font-size:58px;filter:drop-shadow(0 12px 18px rgba(0,0,0,.35))}
+.coachHeroMeta{position:absolute;left:22px;bottom:91px;display:flex;gap:8px;align-items:center;color:#aab3bd;font-size:9px;font-weight:800;letter-spacing:.14em}.coachHeroMeta i{width:3px;height:3px;background:#c8ff72;border-radius:50%}
+.coachHeroTitle{position:absolute;left:22px;bottom:52px;font-size:34px;line-height:1;letter-spacing:-.065em;font-weight:950}.coachHeroSub{position:absolute;left:23px;bottom:25px;font-size:11px;color:#8f99a5}
+.coachContent{padding:0 20px 110px}.coachStats{margin-top:-23px;position:relative;z-index:3;display:grid;grid-template-columns:repeat(3,1fr);background:rgba(20,25,30,.96);border:1px solid rgba(255,255,255,.08);border-radius:22px;padding:16px 10px;box-shadow:0 16px 35px rgba(0,0,0,.25);backdrop-filter:blur(16px)}.coachStats div{text-align:center;border-right:1px solid rgba(255,255,255,.06)}.coachStats div:last-child{border-right:0}.coachStats b{display:block;font-size:20px;letter-spacing:-.04em}.coachStats span{display:block;color:#747e89;font-size:8px;letter-spacing:.13em;font-weight:800;margin-top:4px}
+.coachSection{padding:25px 2px 10px}.coachLabel{font-size:9px;letter-spacing:.15em;color:#7d8791;font-weight:850}.coachSection p{font-size:14px;line-height:1.55;color:#d4d8dc;margin:8px 0 0}
+.setCard{margin-top:11px;padding:17px 18px;border:1px solid rgba(255,255,255,.065);border-radius:21px;background:linear-gradient(145deg,#141a20,#101419)}.setHead{display:flex;gap:10px;align-items:center}.setHead span{width:25px;height:25px;border-radius:9px;background:#222931;display:grid;place-items:center;color:#89939f;font-size:9px;font-weight:900}.setHead b{font-size:10px;letter-spacing:.13em}.setCard p{font-size:13px;line-height:1.55;color:#b2bac3;margin:12px 0 0}.mainSet{border-color:rgba(200,255,114,.16);box-shadow:0 12px 28px rgba(0,0,0,.13)}.mainSet .setHead span{background:rgba(200,255,114,.1);color:#c8ff72}.mainSet .setHead b{color:#c8ff72}
+.coachSplit{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:11px}.coachSplit>div{padding:15px;border-radius:18px;background:#11161b;border:1px solid rgba(255,255,255,.06)}.coachSplit b{display:block;font-size:11px;line-height:1.45;margin-top:7px;color:#d1d6db;font-weight:700}
+.coachComplete{width:100%;height:56px;border:0;border-radius:19px;background:#c8ff72;color:#0a0d09;font-size:13px;font-weight:900;letter-spacing:.03em;margin-top:18px;box-shadow:0 14px 30px rgba(200,255,114,.12)}.coachComplete.completed{background:#202b20;color:#c8ff72;border:1px solid rgba(200,255,114,.2);box-shadow:none}
+.coachNote{text-align:center;font-size:9px;line-height:1.5;color:#68727d;margin:12px 18px 0}
+
+/* PREMIUM WEEKLY PLAN */
+.planShell{padding-bottom:20px}
+.planTop{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.planBack{border:0;background:none;color:#9aa4af;font-weight:800;font-size:13px;padding:7px 0}
+.planCounter{font-size:10px;color:#68727d;font-weight:800;letter-spacing:.12em}
+.planTitle{font-size:34px;font-weight:950;letter-spacing:-.065em;margin:8px 0 3px}
+.planRange{font-size:11px;color:#7f8995}
+.phasePill{display:inline-flex;align-items:center;gap:7px;margin-top:14px;padding:8px 11px;border-radius:999px;background:#151b20;border:1px solid rgba(255,255,255,.07);font-size:9px;font-weight:900;letter-spacing:.12em;color:#aab3bd}
+.phasePill i{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 12px rgba(200,255,114,.35)}
+.weekNav{display:flex;gap:8px;margin:18px 0 14px}
+.weekNav button{width:42px;height:42px;border:1px solid rgba(255,255,255,.07);background:#11161b;color:#8b95a0;border-radius:14px;font-size:18px}
+.weekNav button:active{transform:scale(.96)}
+.weekNav .weekJump{flex:1;text-align:left;padding:0 14px;font-size:10px;font-weight:900;letter-spacing:.12em;color:#dce1e5}
+.dayStrip{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin:10px 0 18px}
+.dayCell{border:1px solid rgba(255,255,255,.065);background:#10151a;border-radius:16px;padding:9px 2px 10px;text-align:center;color:#6f7984}
+.dayCell b{display:block;font-size:9px;letter-spacing:.08em}
+.dayCell strong{display:block;color:#dfe4e8;font-size:15px;margin:6px 0}
+.dayCell .dayMark{width:5px;height:5px;border-radius:50%;background:#303840;margin:auto}
+.dayCell.hasDone .dayMark{background:var(--green);box-shadow:0 0 10px rgba(200,255,114,.4)}
+.dayCell.today{border-color:rgba(200,255,114,.42);background:linear-gradient(145deg,#172019,#11161a);box-shadow:0 8px 24px rgba(0,0,0,.18)}
+.dayCell.today b{color:var(--green)}
+.weekSummary{padding:17px 18px;border-radius:22px;background:linear-gradient(145deg,#171d23,#11161b);border:1px solid rgba(255,255,255,.075);margin-bottom:20px;box-shadow:0 12px 30px rgba(0,0,0,.16)}
+.weekSummaryTop{display:flex;justify-content:space-between;align-items:end}
+.weekSummaryTop b{font-size:14px}
+.weekSummaryTop span{font-size:10px;color:#7d8791}
+.weekProgress{height:6px;background:#252b31;border-radius:99px;overflow:hidden;margin-top:11px}
+.weekProgress i{display:block;height:100%;background:var(--green);border-radius:99px}
+.planDay{margin-bottom:17px}
+.planDayHead{display:flex;align-items:center;justify-content:space-between;margin:0 2px 8px}
+.planDayHead b{font-size:10px;letter-spacing:.13em;color:#7f8995}
+.planDayHead span{font-size:9px;color:#59636d}
+.planWorkout{position:relative;display:flex;gap:13px;align-items:center;padding:16px;border-radius:21px;background:linear-gradient(145deg,#151a20,#101419);border:1px solid rgba(255,255,255,.065);box-shadow:0 10px 25px rgba(0,0,0,.12)}
+.planWorkout.done{opacity:.58}
+.planWorkout .compactIcon{width:46px;height:46px;flex:0 0 46px}
+.planWorkoutMain{min-width:0;flex:1}
+.planWorkoutMain b{display:block;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.planWorkoutMain span{display:block;font-size:10px;color:#7f8995;margin-top:4px;line-height:1.4}
+.planWorkoutArrow{font-size:22px;color:#56606a}
+.planCheck{position:absolute;right:15px;top:9px;font-size:9px;color:var(--green);font-weight:900}
+.restCard{display:flex;align-items:center;gap:11px;padding:14px 16px;border-radius:18px;border:1px dashed rgba(255,255,255,.07);color:#626c76;background:rgba(255,255,255,.018)}
+.restCard span{font-size:17px}.restCard b{font-size:11px}.restCard small{display:block;font-size:9px;margin-top:2px}
+.allWeeks{margin-top:24px;padding-top:20px;border-top:1px solid rgba(255,255,255,.06)}
+.allWeeksTitle{font-size:10px;letter-spacing:.15em;color:#7d8791;font-weight:900;margin-bottom:10px}
+.phaseWeekRow{display:flex;align-items:center;justify-content:space-between;padding:14px 2px;border-bottom:1px solid rgba(255,255,255,.05)}
+.phaseWeekRow b{font-size:13px}.phaseWeekRow span{font-size:9px;color:#68727d}.phaseWeekRow em{font-style:normal;color:#59636d}
+
+
+/* COMPLETION EXPERIENCE */
+.completePanel{margin-top:18px;padding:18px;border-radius:24px;background:linear-gradient(145deg,#182019,#11161a);border:1px solid rgba(200,255,114,.18);box-shadow:0 16px 35px rgba(0,0,0,.2)}
+.completePanel h3{margin:0;font-size:16px;letter-spacing:-.02em}
+.completePanel p{margin:6px 0 14px;color:#7f8995;font-size:10px;line-height:1.5}
+.completeBtn{width:100%;border:0;border-radius:17px;padding:15px;background:var(--green);color:#10140d;font-size:12px;font-weight:950;letter-spacing:.05em;box-shadow:0 10px 24px rgba(200,255,114,.12)}
+.completeBtn:active{transform:scale(.98)}
+.completedHero{margin-top:18px;padding:20px;border-radius:24px;background:linear-gradient(145deg,#1b281c,#111812);border:1px solid rgba(200,255,114,.25);text-align:center}
+.completeTick{width:54px;height:54px;margin:0 auto 10px;border-radius:50%;display:grid;place-items:center;background:rgba(200,255,114,.12);border:1px solid rgba(200,255,114,.28);color:var(--green);font-size:26px;box-shadow:0 0 30px rgba(200,255,114,.08)}
+.completedHero h3{margin:0;font-size:18px}.completedHero p{margin:6px 0 15px;color:#7f8995;font-size:10px}
+.undoBtn{border:1px solid rgba(255,255,255,.1);background:#11161a;color:#9aa4af;border-radius:13px;padding:10px 14px;font-size:10px;font-weight:800}
+.nextWorkoutCard{margin-top:12px;padding:15px 16px;border-radius:19px;background:#10151a;border:1px solid rgba(255,255,255,.06);display:flex;align-items:center;gap:12px}
+.nextWorkoutCard small{display:block;color:#68727d;font-size:8px;letter-spacing:.12em;font-weight:900}.nextWorkoutCard b{display:block;font-size:12px;margin-top:3px}.nextWorkoutCard span{margin-left:auto;color:#68727d;font-size:20px}
+
+
+/* PREMIUM PROGRESS */
+.progressShell{padding-bottom:24px}
+.progressHero{padding:20px;border-radius:26px;background:linear-gradient(145deg,#171f22,#101519);border:1px solid rgba(255,255,255,.07);box-shadow:0 16px 34px rgba(0,0,0,.18)}
+.progressHeroTop{display:flex;justify-content:space-between;align-items:start}
+.progressHero h1{font-size:32px;letter-spacing:-.06em;margin:0}.progressHero p{margin:5px 0 0;color:#7d8791;font-size:10px}
+.progressRing{width:92px;height:92px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--green) var(--pct),#252c31 0);position:relative}
+.progressRing:after{content:"";position:absolute;inset:7px;border-radius:50%;background:#11171b}
+.progressRing div{position:relative;z-index:1;text-align:center}.progressRing b{display:block;font-size:20px}.progressRing span{font-size:7px;color:#78828d;letter-spacing:.08em}
+.progressStats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:16px}
+.pStat{padding:13px 10px;border-radius:17px;background:#10161a;border:1px solid rgba(255,255,255,.05)}.pStat b{font-size:18px;display:block}.pStat span{font-size:8px;color:#707a85;text-transform:uppercase;letter-spacing:.08em}
+.progressSection{margin-top:20px}.progressSectionTitle{font-size:10px;color:#78828d;font-weight:900;letter-spacing:.14em;margin:0 2px 9px}
+.phaseProgress{padding:17px;border-radius:22px;background:#12181d;border:1px solid rgba(255,255,255,.06)}
+.phaseRow{display:flex;justify-content:space-between;align-items:center;margin-bottom:11px}.phaseRow b{font-size:13px}.phaseRow span{font-size:9px;color:#68727d}
+.phaseTrack{height:7px;background:#252c31;border-radius:99px;overflow:hidden}.phaseTrack i{height:100%;display:block;border-radius:99px;background:var(--green)}
+.phaseMini{display:flex;justify-content:space-between;margin-top:11px;font-size:8px;color:#66707a}.phaseMini strong{color:#aab3bc}
+.disciplineGrid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.discipline{padding:16px;border-radius:21px;background:linear-gradient(145deg,#151b20,#101519);border:1px solid rgba(255,255,255,.06)}
+.disciplineTop{display:flex;align-items:center;gap:9px}.discipline .compactIcon{width:38px;height:38px}.discipline b{font-size:12px}.discipline small{display:block;color:#69737e;font-size:8px;margin-top:2px}
+.discipline .dbar{height:5px;background:#252c31;border-radius:99px;margin-top:14px;overflow:hidden}.discipline .dbar i{height:100%;display:block;background:var(--green);border-radius:99px}
+.discipline .dfoot{display:flex;justify-content:space-between;margin-top:7px;color:#68727d;font-size:8px}.discipline .dfoot strong{color:#b8c0c8}
+.streakCard{display:flex;align-items:center;gap:15px;padding:18px;border-radius:22px;background:linear-gradient(145deg,#172019,#11161a);border:1px solid rgba(200,255,114,.13)}
+.streakNumber{font-size:34px;font-weight:950;letter-spacing:-.06em;color:var(--green)}.streakCard b{display:block;font-size:13px}.streakCard span{display:block;color:#6e7883;font-size:9px;margin-top:4px}
+.timeline{padding:16px 17px;border-radius:22px;background:#12181d;border:1px solid rgba(255,255,255,.06)}
+.timelineRow{display:flex;gap:13px;position:relative;padding-bottom:17px}.timelineRow:last-child{padding-bottom:0}.timelineDot{width:9px;height:9px;border-radius:50%;margin-top:4px;background:#343c43;z-index:1}.timelineRow.current .timelineDot{background:var(--green);box-shadow:0 0 12px rgba(200,255,114,.35)}.timelineRow:not(:last-child):after{content:"";position:absolute;left:4px;top:13px;bottom:0;width:1px;background:#2a3137}.timelineRow b{font-size:11px}.timelineRow span{display:block;color:#69737e;font-size:8px;margin-top:3px}
+
+
+/* TRAINING PHASES */
+.phaseShell{padding-bottom:24px}
+.phaseHero{padding:21px;border-radius:26px;background:linear-gradient(145deg,#172019,#101519);border:1px solid rgba(200,255,114,.12);box-shadow:0 16px 34px rgba(0,0,0,.18)}
+.phaseEyebrow{font-size:9px;color:var(--green);font-weight:950;letter-spacing:.16em}
+.phaseHero h1{font-size:33px;letter-spacing:-.06em;margin:7px 0 5px}.phaseHero p{margin:0;color:#7c8690;font-size:10px;line-height:1.55}
+.phaseMeta{display:flex;gap:7px;margin-top:16px;flex-wrap:wrap}.phaseMeta span{padding:7px 10px;border-radius:999px;background:#11171b;border:1px solid rgba(255,255,255,.06);font-size:8px;color:#8a949e;font-weight:800}
+.phaseNav{display:flex;gap:7px;overflow:auto;margin:17px 0 13px;padding-bottom:3px;scrollbar-width:none}.phaseNav::-webkit-scrollbar{display:none}
+.phaseNav button{flex:0 0 auto;border:1px solid rgba(255,255,255,.06);background:#11161a;color:#69737d;border-radius:14px;padding:10px 13px;font-size:9px;font-weight:900;letter-spacing:.05em}.phaseNav button.active{background:#1b241d;color:var(--green);border-color:rgba(200,255,114,.2)}
+.phasePurpose{margin-top:18px;padding:18px;border-radius:22px;background:#12181d;border:1px solid rgba(255,255,255,.06)}
+.phaseSectionTitle{font-size:9px;color:#78828d;font-weight:900;letter-spacing:.14em;margin-bottom:9px}.phasePurpose h2{font-size:19px;margin:0 0 7px;letter-spacing:-.03em}.phasePurpose p{font-size:10px;line-height:1.6;color:#858f99;margin:0}
+.phaseFocusGrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:11px}.focusCard{padding:14px;border-radius:18px;background:#10161a;border:1px solid rgba(255,255,255,.05)}.focusCard b{display:block;font-size:11px}.focusCard span{display:block;font-size:8px;line-height:1.45;color:#68727d;margin-top:5px}
+.phaseMilestone{margin-top:11px;padding:15px;border-radius:18px;background:linear-gradient(145deg,#161c21,#101519);border:1px solid rgba(255,255,255,.05)}.phaseMilestone b{font-size:11px}.phaseMilestone span{display:block;font-size:8px;color:#6e7882;margin-top:4px}
+.phaseWeekList{margin-top:20px}.phaseWeek{display:flex;align-items:center;gap:12px;padding:14px 3px;border-bottom:1px solid rgba(255,255,255,.05)}.phaseWeekNum{width:38px;height:38px;border-radius:13px;display:grid;place-items:center;background:#171d22;color:#aab3bc;font-size:10px;font-weight:950}.phaseWeek.current .phaseWeekNum{background:#1b241d;color:var(--green);border:1px solid rgba(200,255,114,.18)}.phaseWeek div:nth-child(2){flex:1}.phaseWeek b{display:block;font-size:11px}.phaseWeek span{display:block;color:#68727d;font-size:8px;margin-top:3px}.phaseWeek em{font-style:normal;color:#4f5962;font-size:18px}
+
+
+/* PERSONALISATION — SAME PREMIUM UI LANGUAGE */
+.settingsShell{padding-bottom:24px}
+.settingsHero{padding:21px;border-radius:26px;background:linear-gradient(145deg,#171f22,#101519);border:1px solid rgba(255,255,255,.07);box-shadow:0 16px 34px rgba(0,0,0,.18)}
+.settingsEyebrow{font-size:9px;color:var(--green);font-weight:950;letter-spacing:.16em}.settingsHero h1{font-size:33px;letter-spacing:-.06em;margin:7px 0 5px}.settingsHero p{margin:0;color:#7d8791;font-size:10px;line-height:1.55}
+.settingsSection{margin-top:19px}.settingsLabel{font-size:9px;color:#78828d;font-weight:900;letter-spacing:.14em;margin:0 2px 9px}
+.settingCard{padding:17px;border-radius:22px;background:#12181d;border:1px solid rgba(255,255,255,.06)}
+.settingRow{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:3px 0 15px;margin-bottom:14px;border-bottom:1px solid rgba(255,255,255,.05)}.settingRow:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}
+.settingRow b{display:block;font-size:12px}.settingRow span{display:block;font-size:8px;color:#68727d;margin-top:4px;line-height:1.4}
+.settingValue{min-width:88px;text-align:right;color:#d9dfe4;font-size:10px;font-weight:850}
+.choiceGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.choice{border:1px solid rgba(255,255,255,.06);background:#10161a;color:#77818b;border-radius:15px;padding:12px 8px;font-size:9px;font-weight:900;text-align:center}.choice.active{background:#1a241c;border-color:rgba(200,255,114,.22);color:var(--green)}
+.dayChoices{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}.dayChoice{border:1px solid rgba(255,255,255,.06);background:#10161a;color:#68727d;border-radius:13px;padding:10px 1px;text-align:center;font-size:8px;font-weight:900}.dayChoice.active{background:#1a241c;color:var(--green);border-color:rgba(200,255,114,.2)}
+.toggle{width:45px;height:26px;border-radius:99px;background:#293139;border:1px solid rgba(255,255,255,.07);position:relative;flex:0 0 auto}.toggle:after{content:"";position:absolute;width:20px;height:20px;left:2px;top:2px;border-radius:50%;background:#8b959f;transition:.18s}.toggle.on{background:#1b281c;border-color:rgba(200,255,114,.25)}.toggle.on:after{left:21px;background:var(--green)}
+.saveSettings{width:100%;margin-top:12px;border:0;border-radius:17px;padding:15px;background:var(--green);color:#10140d;font-size:11px;font-weight:950;letter-spacing:.06em}
+.resetSettings{width:100%;margin-top:8px;border:1px solid rgba(255,255,255,.08);border-radius:15px;padding:12px;background:#11161a;color:#69737d;font-size:9px;font-weight:850}
+
+
+/* IPHONE / PWA POLISH */
+html{background:#0b0f12}
+body{min-height:100dvh;overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent}
+.app,.phone,.shell{min-height:100dvh}
+button,a{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.bottomNav{padding-bottom:max(10px,env(safe-area-inset-bottom));}
+@supports(padding:max(0px)){
+  .app{padding-bottom:max(86px,calc(76px + env(safe-area-inset-bottom)))}
+}
+@media (display-mode:standalone){
+  body{background:#0b0f12}
+}
+@media (max-width:390px){
+  .planTitle,.progressHero h1,.phaseHero h1,.settingsHero h1{font-size:30px}
+}
+
+
+.prePlanNote{margin-top:12px;padding:12px 14px;border-radius:16px;background:#11171b;border:1px solid rgba(255,255,255,.05);font-size:9px;color:#69737d;line-height:1.45}
+.journey:active{transform:scale(.995)}
+#phases.view.active{display:block}
+
 </style>
+
+<meta name="theme-color" content="#0b0f12">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="70.3">
+
 </head>
 <body>
 <div class="app">
@@ -74,6 +266,7 @@ nav span{font-size:21px}
 <main id="workouts" class="view"></main>
 <main id="progress" class="view"></main>
 <main id="more" class="view"></main>
+<main id="phases" class="view"></main>
 <main id="detail" class="view"></main>
 
 <nav>
@@ -94,34 +287,386 @@ function fmtDate(s){return new Date(s+"T12:00:00").toLocaleDateString("en-GB",{d
 function card(x,i){let c=x.type.toLowerCase();return `<div class="workout ${c} ${x.completed?'done':''}" onclick="detail(${i})"><div class="row"><div class="icon">${ICON[x.type]||"•"}</div><div><div class="wt">${x.type} · ${x.day}</div><div class="sub">${x.detail}</div></div><div class="badge">${fmtDate(x.date)}</div></div>${x.completed?'<div class="check">✓ COMPLETE</div>':''}</div>`}
 function weekStart(d){let x=new Date(d);let day=(x.getDay()+6)%7;x.setDate(x.getDate()-day);x.setHours(12,0,0,0);return x}
 function home(){
- let ws=weekStart(today), iso=ws.toISOString().slice(0,10); let wk=data.filter(x=>x.date>=iso&&x.date<new Date(ws.getTime()+7*864e5).toISOString().slice(0,10));let next=data.find(x=>!x.completed&&new Date(x.date+"T12:00:00")>=new Date(new Date().toDateString()));
- let done=wk.filter(x=>x.completed).length; let total=wk.length;
- document.getElementById("home").innerHTML=`<section class="hero"><h2>COTSWOLD 113 · 06 JUN 2027</h2><div class="days">${daysTo(race)}<span>DAYS TO GO</span></div><div class="racebar"><div><b>1.9 km</b><small>Swim</small></div><div><b>90 km</b><small>Bike</small></div><div><b>21.1 km</b><small>Run</small></div></div><div style="margin-top:17px;color:#9ca6b1;font-size:11px;letter-spacing:.02em">Your 70.3 build · Base → Build → Peak</div></section>
- <section class="section"><div class="sectionhead"><h3>Today's focus</h3><span class="link">${next?fmtDate(next.date):"Race week"}</span></div>${next?card(next,data.indexOf(next)):`<div class="workout"><div class="wt">You're all caught up.</div><div class="sub">Keep the consistency going.</div></div>`}</section>
- <section class="section"><div class="sectionhead"><h3>This week</h3><span class="link">${done}/${total} complete</span></div><div class="weekgrid">${["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].map((d,i)=>{let dt=new Date(ws);dt.setDate(dt.getDate()+i);let key=dt.toISOString().slice(0,10);let a=wk.find(x=>x.date==key);return `<div class="day"><small>${d}</small><strong>${dt.getDate()}</strong><div class="dot ${a&&a.completed?'':'off'}"></div></div>`}).join("")}</div></section>
- <section class="section"><div class="sectionhead"><h3>Next sessions</h3><span class="link">View plan</span></div>${data.filter(x=>!x.completed&&new Date(x.date+"T12:00:00")>=today).slice(0,3).map(x=>card(x,data.indexOf(x))).join("")}</section>`;
+ let ws=weekStart(today), iso=ws.toISOString().slice(0,10);
+ let wk=data.filter(x=>x.date>=iso&&x.date<new Date(ws.getTime()+7*864e5).toISOString().slice(0,10));
+ let done=wk.filter(x=>x.completed).length, total=wk.length;
+ let planStarted=today>=new Date(PLAN.start+"T12:00:00");
+ let next=data.find(x=>x.type!=="Rest"&&!x.completed&&new Date(x.date+"T12:00:00")>=new Date(new Date().toDateString()));
+ let upcoming=data.filter(x=>!x.completed&&new Date(x.date+"T12:00:00")>=today).slice(0,3);
+ let pct=total?Math.round(done/total*100):0;
+ document.getElementById("home").innerHTML=`
+ <section class="dashHero">
+   <div class="heroScene">
+     <div class="sceneGlow"></div><div class="mountain m1"></div><div class="mountain m2"></div>
+     <div class="sceneRoad"></div><div class="sceneRider">🚴</div>
+     <div class="heroTop"><span>70.3 TRAINING</span><button onclick="show('more')">•••</button></div>
+     <div class="heroBottom">
+       <div class="heroKicker">COTSWOLD 113</div>
+       <div class="heroRace">06 JUN <span>2027</span></div>
+       <div class="heroMeta"><span>1.9 KM SWIM</span><i></i><span>90 KM BIKE</span><i></i><span>21.1 KM RUN</span></div>
+     </div>
+   </div>
+   <div class="countdownCard">
+     <div><small>RACE DAY</small><strong>${daysTo(race)}</strong><span>DAYS TO GO</span></div>
+     <div class="ring"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20"></circle><circle class="ringFill" cx="24" cy="24" r="20"></circle></svg><b>${Math.round(Math.min(100,Math.max(0,((new Date()-new Date(PLAN.start+"T12:00:00"))/(race-new Date(PLAN.start+"T12:00:00")))*100)))}%</b></div>
+   </div>
+ </section>
+
+ <section class="section todaySection">
+   <div class="sectionhead"><div><div class="miniLabel">UP NEXT</div><h3>${next?next.type:"You're done"}</h3></div><span class="datePill">${next?fmtDate(next.date):"✓ Complete"}</span></div>
+   ${next?`<div class="featureWorkout ${next.type==="Bike"?"bikeFeature":""}" onclick="detail(${data.indexOf(next)})">
+     <div class="featureIcon ${next.type.toLowerCase()}">${ICON[next.type]||"•"}</div>
+     <div class="featureMain"><div class="featureTitle">${next.type} session</div><div class="featureDetail">${next.detail}</div><div class="featureFooter"><span>${next.day}</span><span>VIEW SESSION&nbsp; →</span></div></div>
+   </div>`:`<div class="featureWorkout"><div class="featureMain"><div class="featureTitle">All planned work complete</div><div class="featureDetail">Keep the consistency going.</div></div></div>`}
+ </section>
+
+ <section class="section weekSection">
+   <div class="sectionhead"><div><div class="miniLabel">THIS WEEK</div><h3>${planStarted?`${done} of ${total} complete`:"Programme starts 26 Oct"}</h3></div><span class="weekPct">${planStarted?pct+"%":"SOON"}</span></div>
+   <div class="weekProgress"><i style="width:${planStarted?pct:0}%"></i></div>
+   <div class="weekgrid premiumWeek">${["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].map((d,i)=>{
+      let dt=new Date(ws);dt.setDate(dt.getDate()+i);let key=dt.toISOString().slice(0,10),a=wk.find(x=>x.date==key);
+      return `<div class="day ${a&&a.completed?'isDone':''} ${a&&a.type!="Rest"?'hasWorkout':''}" onclick="${a?`detail(${data.indexOf(a)})`:''}">
+        <small>${d}</small><strong>${dt.getDate()}</strong><div class="dayMark">${a&&a.completed?'✓':a&&a.type!="Rest"?'•':'—'}</div>
+      </div>`}).join("")}</div>
+ </section>
+
+ <section class="section journey" onclick="show('phases')" style="cursor:pointer">
+   <div class="sectionhead"><div><div class="miniLabel">YOUR JOURNEY</div><h3>Race build</h3></div><span class="link">32 WEEKS</span></div>
+   <div class="phaseTrack">
+     <div class="phase active"><b>BASE</b><span>W1–12</span></div><div class="phase"><b>BUILD</b><span>W13–20</span></div><div class="phase"><b>PEAK</b><span>W21–27</span></div><div class="phase"><b>TAPER</b><span>W28–32</span></div>
+   </div>
+ </section>
+
+ <section class="section upcoming">
+   <div class="sectionhead"><div><div class="miniLabel">COMING UP</div><h3>Next sessions</h3></div><span class="link" onclick="show('calendar')">VIEW PLAN</span></div>
+   ${upcoming.map(x=>`<div class="compactWorkout" onclick="detail(${data.indexOf(x)})"><div class="compactIcon ${x.type.toLowerCase()}">${ICON[x.type]||"•"}</div><div><b>${x.type}</b><span>${fmtDate(x.date)} · ${x.detail.split(" · ")[0]}</span></div><em>›</em></div>`).join("")}
+ </section>`;
 }
 function calendar(){
- let currentW=1; let rows=data.filter((x,i)=>x.day=="Mon").map(x=>{let w=x.week;return `<div class="calendarRow" onclick="showWeek(${w})"><div><b>Week ${w}</b><div class="small">${x.phase} · ${fmtDate(x.date)}–${fmtDate(data.find(y=>y.week==w&&y.day=="Sun").date)}</div></div><div>${w<=27?"›":"★"}</div></div>`}).join("");
- document.getElementById("calendar").innerHTML=`<div class="section"><div class="sectionhead"><h3>Training plan</h3><span class="link">32 weeks</span></div><div class="small">26 Oct 2026 → 6 Jun 2027</div><div class="workout" style="margin-top:14px"><b>Base → Build → Peak → Taper</b><div class="sub">Progressive 70.3 preparation with recovery weeks and race-specific bricks.</div></div>${rows}</div>`;
+  showWeek(1);
 }
 function showWeek(w){
- let arr=data.filter(x=>x.week==w); document.getElementById("calendar").innerHTML=`<button class="back" onclick="calendar()">‹ All weeks</button><div class="detailTitle">Week ${w}</div><div class="eyebrow">${arr[0].phase} · ${fmtDate(arr[0].date)}–${fmtDate(arr[arr.length-1].date)}</div><div class="section">${arr.map(x=>card(x,data.indexOf(x))).join("")}</div>`;
+  w=Math.max(1,Math.min(32,w));
+  let arr=data.filter(x=>x.week==w);
+  let phase=arr[0]?.phase||"Base";
+  let first=arr[0]?.date, last=arr[arr.length-1]?.date;
+  let sessions=arr.filter(x=>x.type!="Rest");
+  let done=sessions.filter(x=>x.completed).length;
+  let pct=sessions.length?Math.round(done/sessions.length*100):0;
+  let days=arr.map((x,i)=>`
+    <div class="dayCell ${x.completed?'hasDone':''} ${isToday(x.date)?'today':''}">
+      <b>${x.day.slice(0,3).toUpperCase()}</b>
+      <strong>${new Date(x.date+"T12:00:00").getDate()}</strong>
+      <div class="dayMark"></div>
+    </div>`).join("");
+
+  let cards=arr.map((x)=>{
+    if(x.type=="Rest") return `<div class="planDay"><div class="planDayHead"><b>${x.day.toUpperCase()}</b><span>${fmtDate(x.date)}</span></div><div class="restCard"><span>○</span><div><b>Rest & recovery</b><small>Mobility and easy movement if needed</small></div></div></div>`;
+    let idx=data.indexOf(x);
+    return `<div class="planDay">
+      <div class="planDayHead"><b>${x.day.toUpperCase()}</b><span>${fmtDate(x.date)}</span></div>
+      <div class="planWorkout ${x.completed?'done':''}" onclick="detail(${idx})">
+        <div class="compactIcon ${x.type.toLowerCase()}">${ICON[x.type]||"•"}</div>
+        <div class="planWorkoutMain"><b>${x.type}</b><span>${x.detail.split(" · ").slice(0,2).join(" · ")}</span></div>
+        <div class="planWorkoutArrow">›</div>
+        ${x.completed?'<div class="planCheck">COMPLETED</div>':''}
+      </div>
+    </div>`;
+  }).join("");
+
+  let weeks=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
+    .map(n=>data.find(x=>x.week==n&&x.day=="Mon"))
+    .map(x=>`<div class="phaseWeekRow" onclick="showWeek(${x.week})"><div><b>Week ${x.week}</b><span>${x.phase} · ${fmtDate(x.date)}</span></div><em>${x.week==w?'●':'›'}</em></div>`).join("");
+
+  document.getElementById("calendar").innerHTML=`
+    <div class="planShell">
+      <div class="planTop">
+        <button class="planBack" onclick="show('home')">‹ Dashboard</button>
+        <div class="planCounter">WEEK ${w} OF 32</div>
+      </div>
+      <div class="planTitle">Week ${w}</div>
+      <div class="planRange">${fmtDate(first)} – ${fmtDate(last)}</div>
+      <div class="phasePill"><i></i>${phase.toUpperCase()}</div>
+
+      <div class="weekNav">
+        <button onclick="showWeek(${w-1})" ${w===1?'disabled':''}>‹</button>
+        <button class="weekJump" onclick="document.getElementById('weekList').scrollIntoView({behavior:'smooth'})">32-WEEK PLAN</button>
+        <button onclick="showWeek(${w+1})" ${w===32?'disabled':''}>›</button>
+      </div>
+
+      <div class="dayStrip">${days}</div>
+
+      <div class="weekSummary">
+        <div class="weekSummaryTop"><b>Week progress</b><span>${done} of ${sessions.length} sessions</span></div>
+        <div class="weekProgress"><i style="width:${pct}%"></i></div>
+      </div>
+
+      ${cards}
+
+      <div class="allWeeks" id="weekList">
+        <div class="allWeeksTitle">JUMP TO WEEK</div>
+        ${weeks}
+      </div>
+    </div>`;
+}
+function isToday(date){
+  let d=new Date(); let local=new Date(d.getTime()-d.getTimezoneOffset()*60000).toISOString().slice(0,10);
+  return date===local;
 }
 function workouts(){
  let types=["Run","Swim","Bike","Strength","Brick"];document.getElementById("workouts").innerHTML=`<div class="section"><div class="sectionhead"><h3>Workout library</h3></div><div class="filter">${types.map(t=>`<button onclick="filterType('${t}')">${ICON[t]} ${t}</button>`).join("")}</div><div id="library">${data.filter(x=>x.week<=6&&x.type!="Rest").slice(0,20).map(x=>card(x,data.indexOf(x))).join("")}</div></div>`;
 }
 function filterType(t){document.getElementById("library").innerHTML=data.filter(x=>x.type==t).slice(0,25).map(x=>card(x,data.indexOf(x))).join("")}
-function progress(){
- let done=data.filter(x=>x.completed).length, pct=Math.round(done/data.length*100);
- let weeks=[1,2,3,4,5,6].map(w=>data.filter(x=>x.week==w&&x.completed).length); let max=Math.max(...weeks,1);
- document.getElementById("progress").innerHTML=`<div class="section"><div class="sectionhead"><h3>Progress</h3><span class="link">${pct}% complete</span></div><div class="workout"><div class="wt">Plan completion</div><div class="progress"><i style="width:${pct}%"></i></div><div class="small">${done} completed sessions of ${data.length}</div></div><div class="section"><h3>Consistency</h3><div class="chart">${weeks.map((v,i)=>`<div class="bar" style="height:${Math.max(12,v/max*115)}px"><small>W${i+1}</small></div>`).join("")}</div></div><div class="section"><h3>Race distances</h3><div class="metricgrid"><div class="metric"><b>1.9 km</b><small>Swim</small></div><div class="metric"><b>90 km</b><small>Bike</small></div><div class="metric"><b>21.1 km</b><small>Run</small></div><div class="metric"><b>${daysTo(race)}</b><small>Days remaining</small></div></div></div>`;
+function phases(){
+  const defs=[
+    {name:"Base 1",range:[1,6],tag:"BUILD THE ENGINE",desc:"Establish consistent training across all three disciplines. The goal is to build durable aerobic fitness without chasing intensity.",focus:[["Run","Aerobic volume & consistency"],["Bike","Endurance and cadence"],["Swim","Technique and efficiency"],["Strength","Movement quality & durability"]],milestone:"Finish Base 1 feeling stronger, fresher and more consistent than when you started."},
+    {name:"Base 2",range:[7,12],tag:"EXTEND THE ENGINE",desc:"Increase your training volume and begin making longer sessions feel routine. Strength and technique remain important while endurance grows.",focus:[["Run","Longer aerobic runs"],["Bike","Long endurance rides"],["Swim","Continuous aerobic work"],["Strength","Strength maintenance"]],milestone:"Long sessions become familiar rather than intimidating."},
+    {name:"Build",range:[13,20],tag:"RACE SPECIFIC",desc:"Training becomes more specific to the demands of a 70.3. Bricks, sustained efforts and longer race-oriented sessions start to matter more.",focus:[["Run","Controlled tempo work"],["Bike","Race-specific endurance"],["Swim","Sustained intervals"],["Brick","Bike-to-run adaptation"]],milestone:"Become comfortable running well after riding."},
+    {name:"Peak",range:[21,27],tag:"PROVE THE FITNESS",desc:"This is the biggest training block. Volume and race specificity peak while you practise fuelling, pacing and handling fatigue.",focus:[["Run","Durability under fatigue"],["Bike","Long race simulations"],["Swim","Race-distance confidence"],["Brick","Race execution"]],milestone:"Complete your biggest sessions with control — not by emptying the tank."},
+    {name:"Taper",range:[28,31],tag:"FRESHEN UP",desc:"Training volume comes down while key intensity and movement patterns remain. The objective is to absorb the work and arrive fresh.",focus:[["Run","Keep the legs sharp"],["Bike","Reduce volume"],["Swim","Stay loose & efficient"],["Recovery","Sleep, mobility & fuelling"]],milestone:"Fitness is already built. Your job now is to protect it."},
+    {name:"Race Week",range:[32,32],tag:"RACE READY",desc:"Very little training is needed now. Short sessions keep you moving while the focus shifts to preparation, confidence and race execution.",focus:[["Swim","Short race prep"],["Bike","Keep the legs moving"],["Run","Strides & loosen up"],["Race","Fuelling, kit & pacing"]],milestone:"Arrive at Cotswold 113 rested, fuelled and ready to race."}
+  ];
+  const today=new Date().toISOString().slice(0,10);
+  const cur=data.find(x=>x.date>=today)||data[data.length-1];
+  let active=defs.findIndex(d=>cur.week>=d.range[0]&&cur.week<=d.range[1]); if(active<0)active=0;
+  window.phaseIndex=active;
+  renderPhase(defs,active);
 }
-function more(){document.getElementById("more").innerHTML=`<div class="section"><h3>Plan settings</h3><div class="workout"><div class="wt">Cotswold 113 · 6 June 2027</div><div class="sub">1.9 km swim · 90 km bike · 21.1 km run</div></div><div class="workout"><div class="wt">Training starts</div><div class="sub">Monday 26 October 2026</div></div><div class="source">This app is a training-plan companion. Record the actual activity in Strava; use this app for the plan, completion and progression.</div></div>`}
-function detail(i){let x=data[i];document.getElementById("detail").innerHTML=`<button class="back" onclick="historyBack()">‹ Back</button><div class="eyebrow">${x.phase} · ${fmtDate(x.date)}</div><div class="detailTitle">${ICON[x.type]||"•"} ${x.type}</div><div class="metricgrid"><div class="metric"><b>${x.day}</b><small>Day</small></div><div class="metric"><b>Week ${x.week}</b><small>Plan</small></div></div><div class="workout" style="margin-top:12px"><div class="wt">Session</div><div class="sub" style="font-size:14px;margin-top:10px">${x.detail}</div></div><button class="complete" onclick="toggleDone(${i})">${x.completed?'MARK INCOMPLETE':'MARK AS COMPLETE'}</button>`;show("detail")}
+function renderPhase(defs,active){
+  const d=defs[active];
+  const weeks=data.filter(x=>x.day=="Mon"&&x.week>=d.range[0]&&x.week<=d.range[1]);
+  const sessions=data.filter(x=>x.type!="Rest"&&x.week>=d.range[0]&&x.week<=d.range[1]);
+  const done=sessions.filter(x=>x.completed).length, pct=sessions.length?Math.round(done/sessions.length*100):0;
+  document.getElementById("phases").innerHTML=`
+    <div class="phaseShell">
+      <div class="phaseHero">
+        <div class="phaseEyebrow">${d.tag}</div>
+        <h1>${d.name}</h1>
+        <p>${d.desc}</p>
+        <div class="phaseMeta"><span>WEEKS ${d.range[0]}${d.range[0]!==d.range[1]?`–${d.range[1]}`:""}</span><span>${done}/${sessions.length} SESSIONS</span><span>${pct}% COMPLETE</span></div>
+      </div>
+      <div class="phaseNav">${defs.map((x,i)=>`<button class="${i===active?'active':''}" onclick="renderPhase(window.phaseDefs,${i})">${x.name}</button>`).join("")}</div>
+      <div class="phasePurpose"><div class="phaseSectionTitle">WHAT THIS PHASE IS FOR</div><h2>${d.name === "Base 1" ? "Build consistency." : d.name === "Base 2" ? "Make endurance your default." : d.name === "Build" ? "Turn fitness into 70.3 fitness." : d.name === "Peak" ? "Practise the race before race day." : d.name === "Taper" ? "Arrive fresh, not fitter." : "Execute what you've built."}</h2><p>${d.desc}</p>
+        <div class="phaseFocusGrid">${d.focus.map(f=>`<div class="focusCard"><b>${f[0]}</b><span>${f[1]}</span></div>`).join("")}</div>
+        <div class="phaseMilestone"><b>Phase milestone</b><span>${d.milestone}</span></div>
+      </div>
+      <div class="phaseWeekList"><div class="phaseSectionTitle">WEEK BY WEEK</div>
+        ${weeks.map(w=>`<div class="phaseWeek ${w.week===curWeek()?'current':''}" onclick="showWeek(${w.week})"><div class="phaseWeekNum">${w.week}</div><div><b>Week ${w.week}</b><span>${fmtDate(w.date)} · ${d.name}</span></div><em>›</em></div>`).join("")}
+      </div>
+    </div>`;
+  window.phaseDefs=defs;
+}
+function curWeek(){
+  const today=new Date().toISOString().slice(0,10), x=data.find(a=>a.date>=today); return x?x.week:32;
+}
+function progress(){
+  const sessions=data.filter(x=>x.type!="Rest");
+  const done=sessions.filter(x=>x.completed).length;
+  const pct=sessions.length?Math.round(done/sessions.length*100):0;
+  const completedBy=t=>data.filter(x=>x.type==t&&x.completed).length;
+  const totalBy=t=>data.filter(x=>x.type==t).length;
+  const phaseNames=["Base 1","Base 2","Build","Peak","Taper","Race Week"];
+  const phaseRanges=[[1,6],[7,12],[13,20],[21,27],[28,31],[32]];
+  let currentPhase=phaseNames[0], currentRange=phaseRanges[0];
+  const today=new Date().toISOString().slice(0,10);
+  const current=data.find(x=>x.date>=today) || data[data.length-1];
+  if(current){ const wi=current.week; const j=phaseRanges.findIndex(r=>wi>=r[0]&&wi<=r[1]); if(j>=0){currentPhase=phaseNames[j];currentRange=phaseRanges[j];}}
+  const phaseSessions=sessions.filter(x=>x.week>=currentRange[0]&&x.week<=currentRange[1]);
+  const phaseDone=phaseSessions.filter(x=>x.completed).length;
+  const phasePct=phaseSessions.length?Math.round(phaseDone/phaseSessions.length*100):0;
+  const next=data.find(x=>x.type!="Rest"&&!x.completed);
+
+  const disc=["Run","Bike","Swim","Strength","Brick"].map(t=>{
+    const a=completedBy(t), b=totalBy(t), q=b?Math.round(a/b*100):0;
+    return `<div class="discipline"><div class="disciplineTop"><div class="compactIcon ${t.toLowerCase()}">${ICON[t]||"•"}</div><div><b>${t}</b><small>${a} of ${b} sessions</small></div></div><div class="dbar"><i style="width:${q}%"></i></div><div class="dfoot"><span>Complete</span><strong>${q}%</strong></div></div>`;
+  }).join("");
+
+  const phases=phaseNames.map((name,j)=>{
+    const [a,b]=phaseRanges[j], ps=sessions.filter(x=>x.week>=a&&x.week<=b), pd=ps.filter(x=>x.completed).length;
+    return `<div class="timelineRow ${name===currentPhase?'current':''}"><div class="timelineDot"></div><div><b>${name}</b><span>Weeks ${a}${a!==b?`–${b}`:""} · ${pd}/${ps.length} sessions complete</span></div></div>`;
+  }).join("");
+
+  document.getElementById("progress").innerHTML=`
+    <div class="progressShell">
+      <div class="progressHero">
+        <div class="progressHeroTop"><div><h1>Progress</h1><p>Your 70.3 journey to Cotswold 113</p></div><div class="progressRing" style="--pct:${pct}%"><div><b>${pct}%</b><span>COMPLETE</span></div></div></div>
+        <div class="progressStats">
+          <div class="pStat"><b>${done}</b><span>Sessions done</span></div>
+          <div class="pStat"><b>${sessions.length-done}</b><span>Remaining</span></div>
+          <div class="pStat"><b>32</b><span>Training weeks</span></div>
+        </div>
+      </div>
+
+      <div class="progressSection">
+        <div class="progressSectionTitle">CURRENT PHASE</div>
+        <div class="phaseProgress"><div class="phaseRow"><b>${currentPhase}</b><span>${phaseDone}/${phaseSessions.length} sessions</span></div><div class="phaseTrack"><i style="width:${phasePct}%"></i></div><div class="phaseMini"><span>Phase progress</span><strong>${phasePct}%</strong></div></div>
+      </div>
+
+      <div class="progressSection">
+        <div class="progressSectionTitle">DISCIPLINES</div>
+        <div class="disciplineGrid">${disc}</div>
+      </div>
+
+      <div class="progressSection">
+        <div class="progressSectionTitle">CONSISTENCY</div>
+        <div class="streakCard"><div class="streakNumber">${calcStreak()}</div><div><b>Workout streak</b><span>Consecutive completed sessions in your plan</span></div></div>
+      </div>
+
+      <div class="progressSection">
+        <div class="progressSectionTitle">YOUR JOURNEY</div>
+        <div class="timeline">${phases}</div>
+      </div>
+
+      ${next?`<div class="progressSection"><div class="progressSectionTitle">NEXT UP</div><div class="nextWorkoutCard" onclick="detail(${data.indexOf(next)})"><div><small>${next.day.toUpperCase()}</small><b>${next.type}</b></div><span>›</span></div></div>`:''}
+    </div>`;
+}
+function calcStreak(){
+  let streak=0, started=false;
+  for(let i=data.length-1;i>=0;i--){
+    if(data[i].type==="Rest") continue;
+    if(data[i].completed){ started=true; streak++; continue; }
+    if(started) break;
+    return 0;
+  }
+  return streak;
+}
+function more(){
+  const prefs=JSON.parse(localStorage.getItem("triPrefs")||'{"goal":"Complete the 70.3","days":["Tue","Wed","Thu","Fri","Sat","Sun"],"reminders":true}');
+  document.getElementById("more").innerHTML=`
+  <div class="settingsShell">
+    <div class="settingsHero"><div class="settingsEyebrow">YOUR TRAINING</div><h1>Personalise</h1><p>Keep the plan aligned with how you actually want to train. These settings are saved on this iPhone.</p></div>
+
+    <div class="settingsSection">
+      <div class="settingsLabel">YOUR GOAL</div>
+      <div class="settingCard">
+        <div class="choiceGrid">
+          ${["Complete the 70.3","Race confidently","Chase a time","Build fitness"].map(x=>`<button class="choice ${prefs.goal===x?'active':''}" onclick="pickGoal(this,'${x.replace(/'/g,"\'")}')">${x}</button>`).join("")}
+        </div>
+      </div>
+    </div>
+
+    <div class="settingsSection">
+      <div class="settingsLabel">TRAINING DAYS</div>
+      <div class="settingCard">
+        <div class="dayChoices">
+          ${["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].map(d=>`<button class="dayChoice ${prefs.days.includes(d)?'active':''}" onclick="toggleDay(this,'${d}')">${d}</button>`).join("")}
+        </div>
+        <div style="font-size:8px;color:#68727d;line-height:1.5;margin-top:11px">Your current programme is built around six training days with Monday as the normal recovery day.</div>
+      </div>
+    </div>
+
+    <div class="settingsSection">
+      <div class="settingsLabel">APP BEHAVIOUR</div>
+      <div class="settingCard">
+        <div class="settingRow"><div><b>Workout reminders</b><span>Keep future reminder support enabled.</span></div><button class="toggle ${prefs.reminders?'on':''}" onclick="toggleReminder(this)"></button></div>
+        <div class="settingRow"><div><b>Activity tracking</b><span>Handled by Strava — this app stays focused on the plan.</span></div><div class="settingValue">STRAVA</div></div>
+      </div>
+    </div>
+
+    <div class="settingsSection">
+      <div class="settingsLabel">RACE</div>
+      <div class="settingCard">
+        <div class="settingRow"><div><b>Cotswold 113</b><span>Sunday 6 June 2027</span></div><div class="settingValue">70.3</div></div>
+        <div class="settingRow"><div><b>Race distance</b><span>1.9 km swim · 90 km bike · 21.1 km run</span></div><div class="settingValue">113 KM</div></div>
+        <div class="settingRow"><div><b>Programme start</b><span>Monday 26 October 2026</span></div><div class="settingValue">32 WEEKS</div></div>
+      </div>
+    </div>
+
+    <button class="saveSettings" onclick="savePrefs()">SAVE PREFERENCES</button>
+    <button class="resetSettings" onclick="resetPrefs()">RESET PERSONALISATION</button>
+  </div>`;
+  window.editPrefs=prefs;
+}
+function pickGoal(btn,value){document.querySelectorAll(".choice").forEach(x=>x.classList.remove("active"));btn.classList.add("active");window.editPrefs.goal=value}
+function toggleDay(btn,day){btn.classList.toggle("active");window.editPrefs.days=[...document.querySelectorAll(".dayChoice.active")].map(x=>x.textContent)}
+function toggleReminder(btn){btn.classList.toggle("on");window.editPrefs.reminders=btn.classList.contains("on")}
+function savePrefs(){localStorage.setItem("triPrefs",JSON.stringify(window.editPrefs));show("more");}
+function resetPrefs(){localStorage.removeItem("triPrefs");show("more")}
+function detail(i){
+ let x=data[i], type=x.type;
+ let presets={
+  Run:{objective:"Build aerobic strength and running durability.",warm:"10 min very easy + dynamic mobility + 4 × 20s relaxed strides",main:x.detail.replaceAll(" · ","<br>• "),cool:"5–10 min easy jog or walk",fuel:"For sessions over 60 min: water + optional 30–45g carbohydrate/hour.",effort:"Easy / controlled"},
+  Swim:{objective:"Improve swim efficiency, rhythm and sustainable endurance.",warm:"300m easy + 4 × 50m drill / swim",main:x.detail.replaceAll(" · ","<br>• "),cool:"200m very easy mixed stroke",fuel:"Hydrate before and after. No on-session fuel normally required.",effort:"Smooth / aerobic"},
+  Bike:{objective:"Develop aerobic endurance and practise the habits you'll need on race day.",warm:"15 min easy spinning, gradually bringing cadence up",main:x.detail.replaceAll(" · ","<br>• "),cool:"10 min easy spin",fuel:"Practise 60–75g carbohydrate/hour and regular fluids.",effort:"Z2 / steady"},
+  Strength:{objective:"Build robust full-body strength without compromising endurance training.",warm:"5–8 min mobility + light activation sets",main:x.detail.replaceAll(" · ","<br>• "),cool:"5 min mobility and relaxed stretching",fuel:"Normal meals and hydration. Prioritise protein after training.",effort:"Controlled / 2–3 reps in reserve"},
+  Brick:{objective:"Practise the bike-to-run transition and running efficiently on tired legs.",warm:"10 min easy bike + 3 × 30s progressive efforts",main:x.detail.replaceAll(" · ","<br>• "),cool:"5–10 min easy walk + mobility",fuel:"60–75g carbohydrate/hour on the bike; practise your race nutrition.",effort:"Controlled / race-specific"},
+  Rest:{objective:"Absorb the training and arrive at the next session fresh.",warm:"Optional 10–15 min gentle mobility",main:"No structured training. Prioritise sleep, hydration and normal nutrition.",cool:"None",fuel:"Normal meals and hydration.",effort:"Recovery"},
+  "Race prep":{objective:"Prime the body without creating fatigue before race day.",warm:"5 min easy movement and mobility.",main:x.detail,cool:"Stop while you still feel fresh. No extra volume.",fuel:"Hydrate normally and prepare your race-day nutrition.",effort:"Very easy / fresh"},
+  Race:{objective:"Execute your Cotswold 113 race plan with patience and consistency.",warm:"Race-day activation as directed by your race plan.",main:x.detail,cool:"Post-race recovery: fluids, carbohydrates, protein and easy movement.",fuel:"Follow your rehearsed race fuelling strategy.",effort:"Race day"}
+ };
+ let q=presets[type]||presets.Run;
+ let distance=(x.detail.match(/(\d+(?:\.\d+)?)\s*(km|m)/i)||[])[0]||"Session";
+ let done=x.completed;
+ document.getElementById("detail").innerHTML=`
+ <div class="coachHero ${type.toLowerCase()}">
+   <button class="detailBack" onclick="historyBack()">‹</button>
+   <div class="coachHeroIcon">${ICON[type]||"•"}</div>
+   <div class="coachHeroMeta"><span>${x.phase.toUpperCase()}</span><i></i><span>${fmtDate(x.date)}</span></div>
+   <div class="coachHeroTitle">${type==="Brick"?"BIKE → RUN":type.toUpperCase()}</div>
+   <div class="coachHeroSub">${distance} · ${q.effort}</div>
+ </div>
+ <div class="coachContent">
+   <div class="coachStats"><div><b>${x.day}</b><span>DAY</span></div><div><b>W${x.week}</b><span>WEEK</span></div><div><b>${done?"✓":"—"}</b><span>STATUS</span></div></div>
+   <section class="coachSection"><div class="coachLabel">THE GOAL</div><p>${q.objective}</p></section>
+   <section class="setCard"><div class="setHead"><span>01</span><b>WARM UP</b></div><p>${q.warm}</p></section>
+   <section class="setCard mainSet"><div class="setHead"><span>02</span><b>MAIN SET</b></div><p>${q.main}</p></section>
+   <section class="setCard"><div class="setHead"><span>03</span><b>COOL DOWN</b></div><p>${q.cool}</p></section>
+   <section class="coachSplit"><div><div class="coachLabel">EFFORT</div><b>${q.effort}</b></div><div><div class="coachLabel">FUELLING</div><b>${q.fuel}</b></div></section>
+   <button class="coachComplete ${done?"completed":""}" onclick="toggleDone(${i})">${done?"✓ WORKOUT COMPLETE":"MARK WORKOUT COMPLETE"}</button>
+   <div class="coachNote">Use Strava for your actual activity. This app tracks the prescription and your completion.</div>
+ 
+      ${x.completed ? `
+        <div class="completedHero">
+          <div class="completeTick">✓</div>
+          <h3>Workout complete</h3>
+          <p>Nice work. Your programme progress has been updated.</p>
+          <button class="undoBtn" onclick="markIncomplete(${i})">Mark incomplete</button>
+          ${nextIncomplete(i)!==null ? `<div class="nextWorkoutCard" onclick="detail(${nextIncomplete(i)})"><div><small>UP NEXT</small><b>${data[nextIncomplete(i)].type}</b></div><span>›</span></div>` : ''}
+        </div>` : `
+        <div class="completePanel">
+          <h3>Ready to log this session?</h3>
+          <p>Strava handles your activity tracking. Mark this workout complete here to keep your training plan and progress up to date.</p>
+          <button class="completeBtn" onclick="markComplete(${i})">MARK WORKOUT COMPLETE</button>
+        </div>`}
+</div>`;
+ show("detail");
+}
+function nextIncomplete(i){
+  for(let n=i+1;n<data.length;n++){
+    if(data[n].type!=="Rest"&&!data[n].completed) return n;
+  }
+  return null;
+}
+function markComplete(i){
+  if(!data[i]) return;
+  data[i].completed=true;
+  save();
+  detail(i);
+}
+function markIncomplete(i){
+  if(!data[i]) return;
+  data[i].completed=false;
+  save();
+  detail(i);
+}
 function toggleDone(i){data[i].completed=!data[i].completed;save();detail(i)}
 function historyBack(){show("home")}
-function show(v){document.querySelectorAll(".view").forEach(x=>x.classList.remove("active"));document.getElementById(v).classList.add("active");document.querySelectorAll("nav button").forEach(x=>x.classList.remove("active"));let n=document.getElementById("n-"+v);if(n)n.classList.add("active");if(v=="home")home();if(v=="calendar")calendar();if(v=="workouts")workouts();if(v=="progress")progress();if(v=="more")more()}
+function show(v){document.querySelectorAll(".view").forEach(x=>x.classList.remove("active"));document.getElementById(v).classList.add("active");document.querySelectorAll("nav button").forEach(x=>x.classList.remove("active"));let n=document.getElementById("n-"+v);if(n)n.classList.add("active");if(v=="home")home();if(v=="calendar")calendar();if(v=="workouts")workouts();if(v=="progress")progress();if(v=="more")more();if(v=="phases")phases()}
 home();calendar();workouts();progress();more();
 </script>
+
+<script>
+/* Local app resilience — completion/preferences persist locally. True offline asset caching requires a separate service worker file. */
+(function(){
+  try{
+    const key='triPlan';
+    if(!localStorage.getItem(key) && typeof data!=='undefined'){
+      localStorage.setItem(key,JSON.stringify(data));
+    }
+  }catch(e){}
+  window.addEventListener('online',()=>document.documentElement.classList.remove('offline'));
+  window.addEventListener('offline',()=>document.documentElement.classList.add('offline'));
+})();
+</script>
+
 </body></html>
